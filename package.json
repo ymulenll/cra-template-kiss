@@ -1,34 +1,25 @@
+  
 {
   "name": "cra-template-kiss",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.2"
+  "version": "0.0.1",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template"
+  ],
+  "author": "Yoelvis Mulen",
+  "description": "Template KISS (Keep it small and simple) | template for Create React App",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ymulenll/cra-template-kiss.git",
+    "directory": "packages/cra-template"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "files": [
+    "template",
+    "template.json"
+  ]
 }
