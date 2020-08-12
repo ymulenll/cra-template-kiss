@@ -1,4 +1,3 @@
-  
 {
   "name": "cra-template-kiss",
   "version": "0.0.1",
@@ -9,10 +8,11 @@
   ],
   "author": "Yoelvis Mulen",
   "description": "Template KISS (Keep it small and simple) | template for Create React App",
+  "main": "template.json",
   "repository": {
     "type": "git",
     "url": "https://github.com/ymulenll/cra-template-kiss.git",
-    "directory": "packages/cra-template"
+    "directory": "packages/cra-template-kiss"
   },
   "license": "MIT",
   "engines": {
