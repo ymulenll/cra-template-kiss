@@ -4,8 +4,8 @@ Template KISS (Keep it small and simple) for Create React App
 
 Creates a minimal react application with following tree:
 ```
-├── README.md
-├── package.json
+├── .vscode
+│   └── launch.json
 ├── public
 │   ├── favicon.ico
 │   ├── index.html
@@ -15,7 +15,11 @@ Creates a minimal react application with following tree:
 │   ├── App.js
 │   ├── index.css
 │   └── index.js
-└── package.lock.json
+├── .gitignore
+├── .prettierrc
+├── package.json
+├── package.lock.json|yarn.lock
+└── README.md
 ```
 
 ## Usage
