@@ -3,6 +3,7 @@
 Template KISS (Keep it small and simple) for Create React App
 
 Creates a minimal react application with following tree:
+
 ```
 ├── .vscode
 │   └── launch.json
@@ -16,7 +17,6 @@ Creates a minimal react application with following tree:
 │   ├── index.css
 │   └── index.js
 ├── .gitignore
-├── .prettierrc
 ├── package.json
 ├── package.lock.json|yarn.lock
 └── README.md
@@ -29,4 +29,3 @@ Use it with create-react-app:
 ```
 npx create-react-app my-app --template kiss
 ```
-
